@@ -16,4 +16,4 @@ it may also work to download the files here & import into xcode and run locally,
 
 ## privacy policy
 
-to read the privacy policy, click [here](PRIVACY.md).
+the privacy policy is available at [PRIVACY.md](PRIVACY.md).

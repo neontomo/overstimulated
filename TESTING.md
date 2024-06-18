@@ -1,4 +1,4 @@
-# testflight steps for testers
+# steps for beta-testers
 
 to test the app, you first need an invite from me. send me your email address before you start the following steps.
 
@@ -32,6 +32,6 @@ thank you for testing the app!
 
 if you have any issues with the app, please let me know. i will try to fix them as soon as possible.
 
-# privacy
+# privacy policy
 
-i will not share your email address with anyone. i will only use it to send you the invite to test the app.
+i will not share your email address with anyone. i will only use it to send you the invite to test the app. the app privacy policy is available at [PRIVACY.md](PRIVACY.md).
