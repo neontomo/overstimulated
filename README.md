@@ -2,7 +2,7 @@
 
 a cute & relaxing ipad game for overstimulated people.
 
-https://github.com/neontomo/overstimulated-ipad-game/assets/105588693/37d6d26d-581a-4e6c-af87-6736cda22759
+https://github.com/neontomo/overstimulated/assets/105588693/5146652c-d6bb-46b2-a6b9-bbecd22c1e2a
 
 ## try it
 
