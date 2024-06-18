@@ -12,7 +12,7 @@ struct RandomColors {
   static func randomFourColors() -> (Color, Color, Color, Color) {
     let palette = colorPalettes.randomElement()
     let colors = palette!.colors
-    let name = palette!.name
+    //var name = palette!.name
     return (colors[0], colors[1], colors[2], colors[3])
   }
 }
