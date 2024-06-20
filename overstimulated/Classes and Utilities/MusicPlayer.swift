@@ -1,6 +1,32 @@
 import AVFoundation
+import SwiftUI
 
-class MusicPlayer {
+class Sounds {
+  static var audioPlayer: AVAudioPlayer?
+
+  static func playSounds(soundfile: String) {
+    @AppStorage("soundEffects") var soundEffects: Bool = true
+    if let path = Bundle.main.path(forResource: soundfile, ofType: nil) {
+
+      do {
+        if soundEffects {
+          audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
+          audioPlayer?.volume = 0.1
+          audioPlayer?.prepareToPlay()
+          audioPlayer?.play()
+          print("Sound played")
+        }
+
+      } catch {
+        print("Error")
+      }
+    } else {
+      print("No sound file found")
+    }
+  }
+}
+
+/* class MusicPlayer {
   static let shared = MusicPlayer()
   var player: AVAudioPlayer?
 
@@ -22,7 +48,7 @@ class MusicPlayer {
 }
 
 class MusicPlayerState: ObservableObject {
-  @Published var isPlaying: Bool = false {
+  @Published var isPlaying: Bool = true {
     didSet {
       if isPlaying {
         MusicPlayer.shared.player?.play()
@@ -32,3 +58,4 @@ class MusicPlayerState: ObservableObject {
     }
   }
 }
+ */

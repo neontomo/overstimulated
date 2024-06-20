@@ -2,9 +2,9 @@ import SwiftUI
 
 struct MenuTitleView: View {
   var body: some View {
-    Group {
+    HStack {
       Text("overstimulated")
-        .font(.largeTitle)
+        .font(.title2)
         .fontWeight(.bold)
         .foregroundColor(.white)
         .padding()

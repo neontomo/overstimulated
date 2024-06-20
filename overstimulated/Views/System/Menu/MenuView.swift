@@ -14,9 +14,12 @@ struct MenuView: View {
     /* black bg */
     ZStack {
       Color.black.edgesIgnoringSafeArea(.all)
+
       VStack {
-        Spacer()
         MenuTitleView()
+        Spacer()
+      }
+      VStack {
         Spacer()
 
         Group {

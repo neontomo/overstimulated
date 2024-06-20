@@ -1,3 +1,4 @@
+import AVFoundation
 import AudioToolbox
 import SwiftUI
 
@@ -28,6 +29,8 @@ struct CreateParticleAttributes {
 }
 
 struct Particle: View {
+  @State public var index: Int
+  @State public var onDisappear: (Int) -> Void
   @State private var x = CreateParticleAttributes.randomX()
   @State private var y = CreateParticleAttributes.randomY()
   @State private var size = CreateParticleAttributes.randomSize()
@@ -36,7 +39,6 @@ struct Particle: View {
   @State private var roundness: CGFloat = CreateParticleAttributes.randomRoundness()
   @State private var color = RandomColors.randomFourColors()
   @State private var blur = false
-  @AppStorage("soundEffects") var soundEffects: Bool = true
 
   private func updateParticle() {
     self.x = CreateParticleAttributes.randomX()
@@ -48,6 +50,14 @@ struct Particle: View {
     self.color = RandomColors.randomFourColors()
   }
 
+  private func shrinkParticle() {
+    self.x = CreateParticleAttributes.randomX()
+    self.y = CreateParticleAttributes.randomY()
+    self.rotation = CreateParticleAttributes.randomRotation()
+    self.blur = false
+    self.size = 0
+  }
+
   var body: some View {
     let gradient = LinearGradient(
       gradient: Gradient(colors: [color.0, color.1]),
@@ -55,56 +65,62 @@ struct Particle: View {
       endPoint: .bottomTrailing
     )
 
-    return RoundedRectangle(cornerRadius: roundness)
-      .fill(gradient)
-      .blur(radius: blur ? 8 : 0)
-      .frame(width: self.size, height: self.size)
-      .offset(x: CGFloat(x), y: CGFloat(y))
-      .rotationEffect(.degrees(self.rotation))
-      .animation(
-        .easeInOut(duration: self.speed)
-          .repeatForever(autoreverses: true),
-        value: self.speed
-      )
-      .onAppear {
-        Timer.scheduledTimer(withTimeInterval: 10.0, repeats: true) { _ in
+    return AnyView(
+      RoundedRectangle(cornerRadius: roundness)
+        .fill(gradient)
+        .blur(radius: blur ? 8 : 0)
+        .frame(width: self.size, height: self.size)
+        .offset(x: CGFloat(x), y: CGFloat(y))
+        .rotationEffect(.degrees(self.rotation))
+        .animation(
+          .easeInOut(duration: self.speed)
+            .repeatForever(autoreverses: true),
+          value: self.speed
+        )
+        .onAppear {
+          Timer.scheduledTimer(withTimeInterval: 10.0, repeats: true) { _ in
+            self.updateParticle()
+          }
           self.updateParticle()
         }
-        self.updateParticle()
-      }
-      .gesture(
-        TapGesture()
-          .onEnded { _ in
-            if soundEffects {
-              AudioServicesPlaySystemSound(1057)
-            }
+        .gesture(
+          TapGesture()
+            .onEnded { _ in
+              Sounds.playSounds(soundfile: "whoosh-click-\(Int.random(in: 0...7)).mp3")
 
-            withAnimation(Animation.easeInOut(duration: 0.3)) {
-              self.color = RandomColors.randomFourColors()
-              self.blur = true
-            }
+              withAnimation(Animation.easeInOut(duration: 0.4)) {
+                self.color = RandomColors.randomFourColors()
+                self.blur = true
+              }
 
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-              withAnimation {
-                self.x = CreateParticleAttributes.randomX()
-                self.y = CreateParticleAttributes.randomY()
-                self.size = CreateParticleAttributes.randomSize()
-                self.rotation = CreateParticleAttributes.randomRotation()
-                self.roundness = CreateParticleAttributes.randomRoundness()
-                self.blur = false
+              DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
+                withAnimation {
+                  self.shrinkParticle()
+                }
+              }
+
+              DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                self.onDisappear(self.index)
               }
             }
-          }
-      )
+        )
+    )
   }
-
 }
 
 struct ParticlesView: View {
+  @State private var particlesVisible = Array(repeating: true, count: 30)
+
   var body: some View {
     ZStack {
       ForEach(0..<30, id: \.self) { index in
-        Particle()
+        if particlesVisible[index] {
+          Particle(
+            index: index,
+            onDisappear: { index in
+              particlesVisible[index] = false
+            })
+        }
       }
     }
   }

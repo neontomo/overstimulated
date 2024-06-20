@@ -20,6 +20,20 @@
 		E52FAD7E2C1A3C5500B6BE78 /* MenuTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FAD7D2C1A3C5500B6BE78 /* MenuTitleView.swift */; };
 		E52FAD832C1A4B3B00B6BE78 /* MenuAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FAD822C1A4B3B00B6BE78 /* MenuAboutView.swift */; };
 		E52FAD852C1A4B4500B6BE78 /* MenuSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FAD842C1A4B4500B6BE78 /* MenuSettingsView.swift */; };
+		E52FBC7B2C236629007313A1 /* BirchForestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FBC7A2C236629007313A1 /* BirchForestView.swift */; };
+		E52FBC7D2C23BF0A007313A1 /* BirchTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FBC7C2C23BF0A007313A1 /* BirchTreeView.swift */; };
+		E52FBC7F2C23BF7F007313A1 /* BirchGrainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FBC7E2C23BF7F007313A1 /* BirchGrainView.swift */; };
+		E52FBC812C23BF8D007313A1 /* BirchFoliageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FBC802C23BF8D007313A1 /* BirchFoliageView.swift */; };
+		E52FBC852C23CB18007313A1 /* LakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FBC842C23CB18007313A1 /* LakeView.swift */; };
+		E52FBC882C23DAFA007313A1 /* DuckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FBC872C23DAFA007313A1 /* DuckView.swift */; };
+		E530CA842C224D9E00A1BD08 /* whoosh-click-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E530CA7C2C224D9D00A1BD08 /* whoosh-click-5.mp3 */; };
+		E530CA852C224D9E00A1BD08 /* whoosh-click-7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E530CA7D2C224D9E00A1BD08 /* whoosh-click-7.mp3 */; };
+		E530CA862C224D9E00A1BD08 /* whoosh-click-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E530CA7E2C224D9E00A1BD08 /* whoosh-click-4.mp3 */; };
+		E530CA872C224D9E00A1BD08 /* whoosh-click-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E530CA7F2C224D9E00A1BD08 /* whoosh-click-1.mp3 */; };
+		E530CA882C224D9E00A1BD08 /* whoosh-click-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E530CA802C224D9E00A1BD08 /* whoosh-click-3.mp3 */; };
+		E530CA892C224D9E00A1BD08 /* whoosh-click-0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E530CA812C224D9E00A1BD08 /* whoosh-click-0.mp3 */; };
+		E530CA8A2C224D9E00A1BD08 /* whoosh-click-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E530CA822C224D9E00A1BD08 /* whoosh-click-2.mp3 */; };
+		E530CA8B2C224D9E00A1BD08 /* whoosh-click-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E530CA832C224D9E00A1BD08 /* whoosh-click-6.mp3 */; };
 		E59182642C19073D009F4C1A /* Palettes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59182632C19073D009F4C1A /* Palettes.swift */; };
 		E591826F2C1914CC009F4C1A /* SystemMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E591826E2C1914CC009F4C1A /* SystemMainView.swift */; };
 		E5EA0C5B2C18DC1A00BC7077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5EA0C5A2C18DC1A00BC7077 /* Assets.xcassets */; };
@@ -43,6 +57,20 @@
 		E52FAD7D2C1A3C5500B6BE78 /* MenuTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitleView.swift; sourceTree = "<group>"; };
 		E52FAD822C1A4B3B00B6BE78 /* MenuAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAboutView.swift; sourceTree = "<group>"; };
 		E52FAD842C1A4B4500B6BE78 /* MenuSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSettingsView.swift; sourceTree = "<group>"; };
+		E52FBC7A2C236629007313A1 /* BirchForestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirchForestView.swift; sourceTree = "<group>"; };
+		E52FBC7C2C23BF0A007313A1 /* BirchTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirchTreeView.swift; sourceTree = "<group>"; };
+		E52FBC7E2C23BF7F007313A1 /* BirchGrainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirchGrainView.swift; sourceTree = "<group>"; };
+		E52FBC802C23BF8D007313A1 /* BirchFoliageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirchFoliageView.swift; sourceTree = "<group>"; };
+		E52FBC842C23CB18007313A1 /* LakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakeView.swift; sourceTree = "<group>"; };
+		E52FBC872C23DAFA007313A1 /* DuckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckView.swift; sourceTree = "<group>"; };
+		E530CA7C2C224D9D00A1BD08 /* whoosh-click-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "whoosh-click-5.mp3"; sourceTree = "<group>"; };
+		E530CA7D2C224D9E00A1BD08 /* whoosh-click-7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "whoosh-click-7.mp3"; sourceTree = "<group>"; };
+		E530CA7E2C224D9E00A1BD08 /* whoosh-click-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "whoosh-click-4.mp3"; sourceTree = "<group>"; };
+		E530CA7F2C224D9E00A1BD08 /* whoosh-click-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "whoosh-click-1.mp3"; sourceTree = "<group>"; };
+		E530CA802C224D9E00A1BD08 /* whoosh-click-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "whoosh-click-3.mp3"; sourceTree = "<group>"; };
+		E530CA812C224D9E00A1BD08 /* whoosh-click-0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "whoosh-click-0.mp3"; sourceTree = "<group>"; };
+		E530CA822C224D9E00A1BD08 /* whoosh-click-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "whoosh-click-2.mp3"; sourceTree = "<group>"; };
+		E530CA832C224D9E00A1BD08 /* whoosh-click-6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "whoosh-click-6.mp3"; sourceTree = "<group>"; };
 		E59182632C19073D009F4C1A /* Palettes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palettes.swift; sourceTree = "<group>"; };
 		E591826E2C1914CC009F4C1A /* SystemMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMainView.swift; sourceTree = "<group>"; };
 		E5EA0C532C18DC1800BC7077 /* overstimulated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = overstimulated.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +126,7 @@
 		E52FAD7F2C1A409D00B6BE78 /* Games */ = {
 			isa = PBXGroup;
 			children = (
+				E52FBC792C236615007313A1 /* BirchForest */,
 				E52FAD812C1A40BC00B6BE78 /* DarkroomFocus */,
 				E52FAD802C1A40A600B6BE78 /* SunsetLuma */,
 			);
@@ -120,6 +149,58 @@
 				E5FDCE062C1A0AB500F6C5F2 /* DarkroomFocusView.swift */,
 			);
 			path = DarkroomFocus;
+			sourceTree = "<group>";
+		};
+		E52FBC792C236615007313A1 /* BirchForest */ = {
+			isa = PBXGroup;
+			children = (
+				E52FBC862C23DAEB007313A1 /* Animals */,
+				E52FBC832C23CB0F007313A1 /* Lake */,
+				E52FBC822C23C093007313A1 /* BirchTree */,
+				E52FBC7A2C236629007313A1 /* BirchForestView.swift */,
+			);
+			path = BirchForest;
+			sourceTree = "<group>";
+		};
+		E52FBC822C23C093007313A1 /* BirchTree */ = {
+			isa = PBXGroup;
+			children = (
+				E52FBC7C2C23BF0A007313A1 /* BirchTreeView.swift */,
+				E52FBC7E2C23BF7F007313A1 /* BirchGrainView.swift */,
+				E52FBC802C23BF8D007313A1 /* BirchFoliageView.swift */,
+			);
+			path = BirchTree;
+			sourceTree = "<group>";
+		};
+		E52FBC832C23CB0F007313A1 /* Lake */ = {
+			isa = PBXGroup;
+			children = (
+				E52FBC842C23CB18007313A1 /* LakeView.swift */,
+			);
+			path = Lake;
+			sourceTree = "<group>";
+		};
+		E52FBC862C23DAEB007313A1 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				E52FBC872C23DAFA007313A1 /* DuckView.swift */,
+			);
+			path = Animals;
+			sourceTree = "<group>";
+		};
+		E530CA792C224B8E00A1BD08 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E530CA812C224D9E00A1BD08 /* whoosh-click-0.mp3 */,
+				E530CA7F2C224D9E00A1BD08 /* whoosh-click-1.mp3 */,
+				E530CA822C224D9E00A1BD08 /* whoosh-click-2.mp3 */,
+				E530CA802C224D9E00A1BD08 /* whoosh-click-3.mp3 */,
+				E530CA7E2C224D9E00A1BD08 /* whoosh-click-4.mp3 */,
+				E530CA7C2C224D9D00A1BD08 /* whoosh-click-5.mp3 */,
+				E530CA832C224D9E00A1BD08 /* whoosh-click-6.mp3 */,
+				E530CA7D2C224D9E00A1BD08 /* whoosh-click-7.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 		E59182622C19072E009F4C1A /* Colors */ = {
@@ -162,6 +243,7 @@
 		E5EA0C4A2C18DC1800BC7077 = {
 			isa = PBXGroup;
 			children = (
+				E530CA792C224B8E00A1BD08 /* sounds */,
 				E5EA0C552C18DC1800BC7077 /* overstimulated */,
 				E5EA0C542C18DC1800BC7077 /* Products */,
 			);
@@ -257,7 +339,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E530CA872C224D9E00A1BD08 /* whoosh-click-1.mp3 in Resources */,
+				E530CA862C224D9E00A1BD08 /* whoosh-click-4.mp3 in Resources */,
+				E530CA882C224D9E00A1BD08 /* whoosh-click-3.mp3 in Resources */,
+				E530CA8B2C224D9E00A1BD08 /* whoosh-click-6.mp3 in Resources */,
+				E530CA892C224D9E00A1BD08 /* whoosh-click-0.mp3 in Resources */,
+				E530CA842C224D9E00A1BD08 /* whoosh-click-5.mp3 in Resources */,
 				E5EA0C5E2C18DC1A00BC7077 /* Preview Assets.xcassets in Resources */,
+				E530CA852C224D9E00A1BD08 /* whoosh-click-7.mp3 in Resources */,
+				E530CA8A2C224D9E00A1BD08 /* whoosh-click-2.mp3 in Resources */,
 				E5EA0C5B2C18DC1A00BC7077 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,8 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52FBC7B2C236629007313A1 /* BirchForestView.swift in Sources */,
 				E5EA0C652C18DCEF00BC7077 /* GradientView.swift in Sources */,
 				E5EA0C6D2C18DD8D00BC7077 /* MyApp.swift in Sources */,
+				E52FBC812C23BF8D007313A1 /* BirchFoliageView.swift in Sources */,
 				E5266CC42C1901D20009DCCD /* RandomColors.swift in Sources */,
 				E52FAD852C1A4B4500B6BE78 /* MenuSettingsView.swift in Sources */,
 				E5FDCE072C1A0AB500F6C5F2 /* DarkroomFocusView.swift in Sources */,
@@ -278,13 +370,17 @@
 				E5266CC22C18FF9C0009DCCD /* FooterView.swift in Sources */,
 				E5266CB22C18FA830009DCCD /* MusicPlayer.swift in Sources */,
 				E52FAD7E2C1A3C5500B6BE78 /* MenuTitleView.swift in Sources */,
+				E52FBC882C23DAFA007313A1 /* DuckView.swift in Sources */,
 				E5266CBC2C18FD5E0009DCCD /* ParticlesView.swift in Sources */,
 				E59182642C19073D009F4C1A /* Palettes.swift in Sources */,
 				E52FAD832C1A4B3B00B6BE78 /* MenuAboutView.swift in Sources */,
+				E52FBC852C23CB18007313A1 /* LakeView.swift in Sources */,
+				E52FBC7D2C23BF0A007313A1 /* BirchTreeView.swift in Sources */,
 				E52FAD7A2C1A3B5D00B6BE78 /* MenuView.swift in Sources */,
 				E52FAD7C2C1A3B8D00B6BE78 /* MenuGamesView.swift in Sources */,
 				E5266CC02C18FDE50009DCCD /* SettingsView.swift in Sources */,
 				E5266CBD2C18FD5E0009DCCD /* SunsetLumaView.swift in Sources */,
+				E52FBC7F2C23BF7F007313A1 /* BirchGrainView.swift in Sources */,
 				E591826F2C1914CC009F4C1A /* SystemMainView.swift in Sources */,
 				E5266CC62C1901E90009DCCD /* RandomNumber.swift in Sources */,
 			);

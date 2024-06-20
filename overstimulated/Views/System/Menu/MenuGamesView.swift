@@ -37,6 +37,18 @@ struct MenuGamesView: View {
           }
 
           Button(action: {
+            print("starting birch forest")
+            menuActive = false
+            whichGameActive = "birch forest"
+          }) {
+            Text("birch forest")
+              .font(.title)
+              .fontWeight(.bold)
+              .foregroundColor(.white)
+              .padding()
+          }
+
+          Button(action: {
             print("returning to menu")
             menuActive = true
             whichMenuActive = "main"

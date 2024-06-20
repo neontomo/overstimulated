@@ -45,6 +45,10 @@ struct StartView: View {
           RoomView()
             .edgesIgnoringSafeArea(.all)
             .statusBar(hidden: true)
+        } else if whichGameActive == "birch forest" {
+          BirchForestView()
+            .edgesIgnoringSafeArea(.all)
+            .statusBar(hidden: true)
         }
 
         VStack {
