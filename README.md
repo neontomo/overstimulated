@@ -6,13 +6,17 @@ download the app, choose from games that combine gorgeous lighting, colours, hap
 
 https://github.com/neontomo/overstimulated/assets/105588693/5146652c-d6bb-46b2-a6b9-bbecd22c1e2a
 
+## website
+
+the website is available at [overstimulated](https://overstimulated.netlify.app).
+
 ## install the app
 
-this app is not yet released on the appstore.
+the app is available for download on the app store, for iPad & iPhone.
 
-if you wish to be a beta-tester, please sign up at [TESTING.md](TESTING.md).
-
-it may also work to download the files here & import into xcode and run locally, but i can't guarantee it.
+<a href="https://apps.apple.com/se/app/overstimulated/id6504532464">
+  <img src="https://img.shields.io/badge/download on-App Store-black?style=for-the-badge&logo=apple" alt="download app">
+</a>
 
 ## privacy policy
 
