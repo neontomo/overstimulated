@@ -16,7 +16,7 @@ export default function Home() {
         description={
           'choose from games that combine gorgeous lighting, colours, haptics & sound to get your brain to that sweet spot. designed for neurodivergent brains.'
         }
-        image={'/ipad.webp'}
+        image={'/ipad.webp?v=2'}
         linkAppStore={links.download.href}
         linkTitle="download in app store"
       />
@@ -36,7 +36,7 @@ export default function Home() {
               width={1409}
               height={1080}
               className="zoom-on-hover rounded-lg md:px-16"
-              src={'/ipad-2.webp'}
+              src={'/ipad-2.webp?v=2'}
             />
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Home() {
               width={1409}
               height={1080}
               className="zoom-on-hover rounded-lg md:px-16"
-              src={'/ipad-3.webp'}
+              src={'/ipad-3.webp?v=2'}
             />
           </div>
         </div>
