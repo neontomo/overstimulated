@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.zoom-on-hover {
+  @apply z-[90] transition duration-200 ease-in-out hover:scale-100 md:hover:scale-[1.02] lg:hover:scale-[1.02];
+}
