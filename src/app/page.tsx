@@ -82,7 +82,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mx-auto flex items-center">
+        <div className="mx-auto flex flex-col items-center md:flex-row">
           <BenefitsHeaders
             title={'download app now'}
             description={'available on iPad and iPhone.'}

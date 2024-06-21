@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# overstimulated
 
-## Getting Started
+**an app to soothe the overstimulated mind.**
 
-First, run the development server:
+download the app, choose from games that combine gorgeous lighting, colours, haptics & sound to get your brain to that sweet spot.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://github.com/neontomo/overstimulated/assets/105588693/5146652c-d6bb-46b2-a6b9-bbecd22c1e2a
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## install the app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+this app is not yet released on the appstore.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+if you wish to be a beta-tester, please sign up at [TESTING.md](TESTING.md).
 
-## Learn More
+it may also work to download the files here & import into xcode and run locally, but i can't guarantee it.
 
-To learn more about Next.js, take a look at the following resources:
+## privacy policy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+the privacy policy is available at [PRIVACY.md](PRIVACY.md).

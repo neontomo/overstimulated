@@ -4,6 +4,20 @@ import Link from 'next/link'
 import { links } from '@/utils/links'
 
 function Nav() {
+  const hamburgerIcon = (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      className="inline-block h-5 w-5 stroke-current">
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M4 6h16M4 12h16M4 18h16"></path>
+    </svg>
+  )
+
   const liElement = (link: {
     title: string
     href: string
@@ -36,9 +50,21 @@ function Nav() {
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
-          {liElement(links.download)}
-          {liElement(links.privacy)}
-          {liElement(links.support)}
+          <li className="flex md:hidden">
+            <details>
+              <summary>{hamburgerIcon}</summary>
+              <ul className="absolute right-0 rounded-t-none bg-base-100 p-2">
+                {liElement(links.download)}
+                {liElement(links.privacy)}
+                {liElement(links.support)}
+              </ul>
+            </details>
+          </li>
+          <div className="hidden md:flex">
+            {liElement(links.download)}
+            {liElement(links.privacy)}
+            {liElement(links.support)}
+          </div>
         </ul>
       </div>
     </div>

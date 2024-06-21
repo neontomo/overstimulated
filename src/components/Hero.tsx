@@ -20,7 +20,7 @@ function Hero({
 }) {
   return (
     <div
-      className={`hero bg-base-200 md:px-16 ${fullHeight && 'min-h-screen'}`}>
+      className={`hero bg-base-200 py-32 md:px-16 lg:pt-0 ${fullHeight && 'min-h-screen'}`}>
       <div className="hero-content flex-col gap-8 lg:flex-row-reverse">
         <div className="w-full">
           {image && (
@@ -37,14 +37,14 @@ function Hero({
           {title && (
             <h1 className="w-full text-4xl font-bold md:text-5xl">{title}</h1>
           )}
-          {description && <p className="py-6 lg:w-1/2">{description}</p>}
+          {description && <p className="py-6 lg:w-full">{description}</p>}
 
           {/* {linkAppStore && (
             
           )} */}
 
           {(link || linkAppStore) && (
-            <div className="flex">
+            <div className="flex justify-center md:justify-start">
               <Link
                 className={`zoom-on-hover ${
                   link
