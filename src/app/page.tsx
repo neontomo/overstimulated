@@ -36,6 +36,7 @@ export default function Home() {
               width={1409}
               height={1080}
               className="zoom-on-hover rounded-lg md:px-16"
+              sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, 50vw"
               src={'/ipad-2.webp?v=2'}
             />
           </div>
@@ -55,6 +56,7 @@ export default function Home() {
               width={1409}
               height={1080}
               className="zoom-on-hover rounded-lg md:px-16"
+              sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, 50vw"
               src={'/ipad-3.webp?v=2'}
             />
           </div>
