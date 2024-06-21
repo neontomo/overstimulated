@@ -29,6 +29,7 @@ function Hero({
               alt={'Hero image'}
               width={1920}
               height={1080}
+              sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, 50vw"
               className="zoom-on-hover max-w-full rounded-lg"
             />
           )}
