@@ -3,8 +3,7 @@ import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import Image from 'next/image'
 import BenefitsHeaders from '@/components/BenefitsHeaders'
-import Link from 'next/link'
-import { links } from '@/utils/links'
+import AppStoreButton from '@/components/AppStoreButton'
 
 export default function Home() {
   return (
@@ -17,8 +16,6 @@ export default function Home() {
           'choose from games that combine gorgeous lighting, colours, haptics & sound to get your brain to that sweet spot. designed for neurodivergent brains.'
         }
         image={'/ipad.webp?v=2'}
-        linkAppStore={links.download.href}
-        linkTitle="download in app store"
       />
 
       <div className="flex flex-col gap-32">
@@ -89,19 +86,8 @@ export default function Home() {
             title={'download app now'}
             description={'available on iPad and iPhone.'}
           />
-          <Link
-            className={`zoom-on-hover`}
-            title={'download in app store'}
-            target="_blank"
-            href={links.download.href}>
-            <Image
-              src="/download.svg"
-              alt="Hero image"
-              width={200}
-              height={200}
-              className="zoom-on-hover cursor-pointer"
-            />
-          </Link>
+
+          <AppStoreButton />
         </div>
       </div>
     </main>

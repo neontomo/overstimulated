@@ -39,13 +39,12 @@ function Nav() {
           href="/"
           className="btn btn-ghost text-xl">
           <Image
-            src="/icon-small.webp"
+            src="/overstimulated-logo.webp"
             alt="logo"
-            width={30}
-            height={30}
+            width={200}
+            height={52}
             className="rounded-lg"
           />
-          overstimulated
         </Link>
       </div>
       <div className="flex-none">

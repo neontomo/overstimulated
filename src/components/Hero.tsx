@@ -1,22 +1,16 @@
-import Link from 'next/link'
 import Image from 'next/image'
+import AppStoreButton from './AppStoreButton'
 
 function Hero({
   fullHeight = true,
   title,
   description,
-  image,
-  linkAppStore,
-  linkTitle = 'get started',
-  link
+  image
 }: {
   fullHeight?: boolean
   title?: string
   description?: string
   image?: string
-  linkAppStore?: string
-  linkTitle?: string
-  link?: string
 }) {
   return (
     <div
@@ -40,35 +34,9 @@ function Hero({
           )}
           {description && <p className="py-6 lg:w-full">{description}</p>}
 
-          {/* {linkAppStore && (
-            
-          )} */}
-
-          {(link || linkAppStore) && (
-            <div className="flex justify-center md:justify-start">
-              <Link
-                className={`zoom-on-hover ${
-                  link
-                    ? 'btn bg-[#FF7676] hover:bg-[#FF7676] hover:opacity-80'
-                    : ''
-                }`}
-                title={linkTitle}
-                target="_blank"
-                href={link ? link : linkAppStore ? linkAppStore : ''}>
-                {linkAppStore ? (
-                  <Image
-                    src="/download.svg"
-                    alt="download in app store"
-                    width={150}
-                    height={150}
-                    className="zoom-on-hover cursor-pointer"
-                  />
-                ) : (
-                  linkTitle
-                )}
-              </Link>
-            </div>
-          )}
+          <div className="flex justify-center md:justify-start">
+            <AppStoreButton />
+          </div>
         </div>
       </div>
     </div>
