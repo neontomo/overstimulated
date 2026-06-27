@@ -41,6 +41,8 @@
 		E56C3B5E2C28F64400A6322D /* MenuCreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56C3B5D2C28F64400A6322D /* MenuCreditsView.swift */; };
 		E59182642C19073D009F4C1A /* Palettes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59182632C19073D009F4C1A /* Palettes.swift */; };
 		E591826F2C1914CC009F4C1A /* BrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E591826E2C1914CC009F4C1A /* BrightnessView.swift */; };
+		E5E216002C34D6EA0090A198 /* JuggleCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E215FF2C34D6EA0090A198 /* JuggleCoffeeView.swift */; };
+		E5E216022C350BBE0090A198 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5E216012C350BBE0090A198 /* Info.plist */; };
 		E5EA0C5B2C18DC1A00BC7077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5EA0C5A2C18DC1A00BC7077 /* Assets.xcassets */; };
 		E5EA0C5E2C18DC1A00BC7077 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5EA0C5D2C18DC1A00BC7077 /* Preview Assets.xcassets */; };
 		E5EA0C652C18DCEF00BC7077 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA0C642C18DCEF00BC7077 /* GradientView.swift */; };
@@ -83,6 +85,8 @@
 		E56C3B5D2C28F64400A6322D /* MenuCreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCreditsView.swift; sourceTree = "<group>"; };
 		E59182632C19073D009F4C1A /* Palettes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palettes.swift; sourceTree = "<group>"; };
 		E591826E2C1914CC009F4C1A /* BrightnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessView.swift; sourceTree = "<group>"; };
+		E5E215FF2C34D6EA0090A198 /* JuggleCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuggleCoffeeView.swift; sourceTree = "<group>"; };
+		E5E216012C350BBE0090A198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5EA0C532C18DC1800BC7077 /* overstimulated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = overstimulated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EA0C5A2C18DC1A00BC7077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5EA0C5D2C18DC1A00BC7077 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 		E52FAD7F2C1A409D00B6BE78 /* Games */ = {
 			isa = PBXGroup;
 			children = (
+				E5E215FE2C34D6DC0090A198 /* JuggleCoffee */,
 				E52FBC792C236615007313A1 /* BirchForest */,
 				E52FAD812C1A40BC00B6BE78 /* DarkroomFocus */,
 				E52FAD802C1A40A600B6BE78 /* SunsetLuma */,
@@ -279,9 +284,18 @@
 			path = Children;
 			sourceTree = "<group>";
 		};
+		E5E215FE2C34D6DC0090A198 /* JuggleCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				E5E215FF2C34D6EA0090A198 /* JuggleCoffeeView.swift */,
+			);
+			path = JuggleCoffee;
+			sourceTree = "<group>";
+		};
 		E5EA0C4A2C18DC1800BC7077 = {
 			isa = PBXGroup;
 			children = (
+				E5E216012C350BBE0090A198 /* Info.plist */,
 				E530CA792C224B8E00A1BD08 /* sounds */,
 				E5EA0C552C18DC1800BC7077 /* overstimulated */,
 				E5EA0C542C18DC1800BC7077 /* Products */,
@@ -390,6 +404,7 @@
 				E530CA8A2C224D9E00A1BD08 /* whoosh-click-2.mp3 in Resources */,
 				E5EA0C5B2C18DC1A00BC7077 /* Assets.xcassets in Resources */,
 				E50ADEFC2C28AD940059A176 /* choice-story.mp3 in Resources */,
+				E5E216022C350BBE0090A198 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +423,7 @@
 				E5266CC42C1901D20009DCCD /* RandomColors.swift in Sources */,
 				E52FAD852C1A4B4500B6BE78 /* MenuSettingsView.swift in Sources */,
 				E5FDCE072C1A0AB500F6C5F2 /* DarkroomFocusView.swift in Sources */,
+				E5E216002C34D6EA0090A198 /* JuggleCoffeeView.swift in Sources */,
 				E5266CB42C18FB420009DCCD /* Clamp.swift in Sources */,
 				E5266CC22C18FF9C0009DCCD /* FooterView.swift in Sources */,
 				E5266CB22C18FA830009DCCD /* MusicPlayer.swift in Sources */,
@@ -584,7 +600,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.neontomo.overstimulated;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -617,7 +633,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.neontomo.overstimulated;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
